@@ -1,0 +1,60 @@
+
+body {
+    background-color: black;
+    background: url('wallpaperr.png') no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 50%;
+    margin: 100px auto;
+    text-align: center;
+    padding:100px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: lightcoral;
+    text-shadow: 2px 2px 5px black;
+}
+
+input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #000;
+    border: 1px dashed aqua;
+    border-radius: 40px;
+    font-size: 1em;
+    color: #66fcf1;
+    
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #000;
+    border: 1px dashed aqua;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #66fcf1;
+    font-weight: 500;
+}
+
+    button:hover {
+        background-color:lightslategray;
+    }
+
+p#result {
+    margin-top: 20px;
+    font-family: 'Lucida Console';
+    font-weight: bold;
+    color: aliceblue;
+}
